@@ -36,13 +36,14 @@ class App extends React.Component { //constante variabletype voor alle component
           <Switch>
             <Route exact path="/">
                 <main>
-                  <SearchBar filterList={this.filterList} placeholder="Search for a movie title"/>
+                  <SearchBar filterList={this.filterList} placeholder="Search for a title"/>
                   <GridList movieList={this.state.list}/>
                   <Link to="/about"> <h4>About this project</h4> </Link>
                 </main>
             </Route>
             <Route exact path="/about">
             <h1>Made by MoonieBanoonie</h1>
+            <p>A collection of some of my favorite sci-fi movies and series</p>
             <p>Thanks to The Open Movie Database for the API and Yuron for the great tutorial</p>
             </Route>
             <Route exact path="/movie/:movieId" component={Movie}/>
