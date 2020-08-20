@@ -165,7 +165,6 @@ const movieList = [
     "movie": "tt2548396",
   },
 
-
 ];
 
 export default movieList;
