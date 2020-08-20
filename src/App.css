@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%; /*rem 1rem = 10px, wordt automatisch meegestyled */
+}
+
+body{
+  font-size: 1.6rem;
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 4rem; /* 40 pixels*/
+  box-sizing: border-box; /*padding en border worden meegerekend met width van element*/
+  font-family: monospace;
+}
